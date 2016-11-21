@@ -1,0 +1,15 @@
+digraph G {
+	g[color = cyan, style = filled, label ="*"];
+	f[color = cyan, style = filled, label ="-"];
+	e[color = cyan, style = filled, label ="d"];
+	d[color = cyan, style = filled, label ="c"];
+	f->e;
+	f->d;
+	c[color = cyan, style = filled, label ="+"];
+	b[color = cyan, style = filled, label ="b"];
+	a[color = cyan, style = filled, label ="a"];
+	c->b;
+	c->a;
+	g->f;
+	g->c;
+}

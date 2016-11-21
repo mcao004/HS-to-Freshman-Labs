@@ -1,0 +1,27 @@
+digraph G {
+	m[color = cyan, style = filled, label ="-"];
+	l[color = cyan, style = filled, label ="*"];
+	k[color = cyan, style = filled, label ="g"];
+	j[color = cyan, style = filled, label ="+"];
+	i[color = cyan, style = filled, label ="f"];
+	h[color = cyan, style = filled, label ="*"];
+	g[color = cyan, style = filled, label ="e"];
+	f[color = cyan, style = filled, label ="d"];
+	h->g;
+	h->f;
+	j->i;
+	j->h;
+	l->k;
+	l->j;
+	e[color = cyan, style = filled, label ="+"];
+	d[color = cyan, style = filled, label ="*"];
+	c[color = cyan, style = filled, label ="c"];
+	b[color = cyan, style = filled, label ="b"];
+	d->c;
+	d->b;
+	a[color = cyan, style = filled, label ="a"];
+	e->d;
+	e->a;
+	m->l;
+	m->e;
+}

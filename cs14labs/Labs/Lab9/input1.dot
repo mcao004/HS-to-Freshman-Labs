@@ -1,0 +1,31 @@
+digraph G {
+	Micky_Mouse[color = Magenta, style = filled, label = "Micky_Mouse, 0"];
+	Parah_Salin[color = Magenta, style = filled, label = "Parah_Salin, 3"];
+	Joe_the_Plumber[color = Magenta, style = filled, label = "Joe_the_Plumber, 2"];
+	Wille_E_Coyote[color = Magenta, style = filled, label = "Wille_E_Coyote, 1"];
+	Tilla_Tequila[color = Magenta, style = filled, label = "Tilla_Tequila, 3"];
+	Kim_Jong_Il[color = Magenta, style = filled, label = "Kim_Jong_Il, 4"];
+	Scoobie_Doo[color = Magenta, style = filled, label = "Scoobie_Doo, 1"];
+	Hugo_Chavez[color = Magenta, style = filled, label = "Hugo_Chavez, 4"];
+	Micky_Mouse->Wille_E_Coyote;
+	Micky_Mouse->Scoobie_Doo;
+	Parah_Salin->Joe_the_Plumber;
+	Parah_Salin->Micky_Mouse;
+	Parah_Salin->Kim_Jong_Il;
+	Parah_Salin->Hugo_Chavez;
+	Joe_the_Plumber->Parah_Salin;
+	Joe_the_Plumber->Wille_E_Coyote;
+	Joe_the_Plumber->Tilla_Tequila;
+	Wille_E_Coyote->Micky_Mouse;
+	Wille_E_Coyote->Joe_the_Plumber;
+	Tilla_Tequila->Parah_Salin;
+	Tilla_Tequila->Joe_the_Plumber;
+	Tilla_Tequila->Scoobie_Doo;
+	Kim_Jong_Il->Micky_Mouse;
+	Kim_Jong_Il->Tilla_Tequila;
+	Kim_Jong_Il->Joe_the_Plumber;
+	Scoobie_Doo->Wille_E_Coyote;
+	Hugo_Chavez->Parah_Salin;
+	Hugo_Chavez->Micky_Mouse;
+	Hugo_Chavez->Scoobie_Doo;
+}
